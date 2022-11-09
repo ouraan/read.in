@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+ html, body{
+     height: 100%;
+     width: 100%;
+     font-family: 'Poppins', sans-serif;
+}
+ .row{
+     height: 100%;
+     width: 100%;
+     margin: 0;
+}
+ #left-col{
+     background: linear-gradient(190deg, rgba(46, 35, 3, 0.8), rgba(18, 18, 18, 0.7)), url('../assets/atlas-1052011_1920.jpg');
+     background-size: cover;
+}
+ #logo{
+     font-size: 18px;
+}
+ #right-col{
+     padding: 7% 30px;
+}
+ .title-text{
+     text-align: right;
+     color: #545050;
+}
+ .title-text > h2{
+     font-size: 30px;
+}
+ .title-text > p{
+     font-size: 18px;
+     font-weight: 200;
+}
+ .form-control{
+     padding: 14px 20px;
+     font-size: 13px;
+     font-weight: 300;
+     color: black;
+     border-radius: 10px;
+     background-color: #FBF9F9;
+     border: none;
+     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+ .form-text{
+     text-decoration: none;
+     font-size: 13px;
+     font-weight: 300;
+     color: #e6ad1f;
+}
+ #forgot-text{
+     text-align: right;
+}
+.form-check-label{
+    font-weight: 300;
+    font-size: 13px;
+     color: #545050;
+}
+ .form-control:focus{
+     border: none;
+     outline: none;
+}
+ .form-control::placeholder{
+     color: rgb(119, 119, 119);
+     font-weight: 200;
+}
+ #btn-login{
+     background-color: #DFA100;
+     color: white;
+     font-weight: 400;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+ #btn-login:hover{
+     background-color: #ca981a;
+}
+ #account-text{
+     color: #545050;
+}
+ #register-text{
+     text-decoration: none;
+}
+ #register-text:hover{
+     color: #b88912;
+}
